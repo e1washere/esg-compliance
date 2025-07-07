@@ -1,0 +1,321 @@
+{
+  "common": {
+    "loading": "Ładowanie...",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "add": "Dodaj",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "export": "Eksportuj",
+    "import": "Importuj",
+    "refresh": "Odśwież",
+    "submit": "Wyślij",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Poprzedni",
+    "yes": "Tak",
+    "no": "Nie",
+    "confirm": "Potwierdź",
+    "close": "Zamknij",
+    "error": "Błąd",
+    "success": "Sukces",
+    "warning": "Ostrzeżenie",
+    "info": "Informacja",
+    "required": "Wymagane",
+    "optional": "Opcjonalne"
+  },
+  "navigation": {
+    "dashboard": "Panel główny",
+    "compliance": "Zgodność",
+    "metrics": "Metryki",
+    "reports": "Raporty",
+    "integrations": "Integracje",
+    "recommendations": "Rekomendacje",
+    "settings": "Ustawienia",
+    "profile": "Profil",
+    "help": "Pomoc",
+    "logout": "Wyloguj"
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "email": "Adres e-mail",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "resetPassword": "Zresetuj hasło",
+    "rememberMe": "Zapamiętaj mnie",
+    "loginSuccess": "Zalogowano pomyślnie",
+    "loginError": "Błędny email lub hasło",
+    "registerSuccess": "Konto utworzone pomyślnie",
+    "registerError": "Błąd podczas rejestracji",
+    "logoutSuccess": "Wylogowano pomyślnie",
+    "emailRequired": "Email jest wymagany",
+    "passwordRequired": "Hasło jest wymagane",
+    "passwordMinLength": "Hasło musi mieć minimum 8 znaków",
+    "passwordsDoNotMatch": "Hasła nie są identyczne",
+    "invalidEmail": "Nieprawidłowy adres email"
+  },
+  "organization": {
+    "title": "Organizacja",
+    "name": "Nazwa firmy",
+    "nip": "NIP",
+    "regon": "REGON",
+    "krs": "KRS",
+    "address": "Adres",
+    "street": "Ulica",
+    "city": "Miasto",
+    "postalCode": "Kod pocztowy",
+    "voivodeship": "Województwo",
+    "industry": "Branża",
+    "industryCode": "Kod PKD",
+    "companySize": "Wielkość firmy",
+    "employeeCount": "Liczba pracowników",
+    "annualRevenue": "Roczny przychód",
+    "foundedDate": "Data założenia",
+    "website": "Strona internetowa",
+    "contactEmail": "Email kontaktowy",
+    "contactPhone": "Telefon kontaktowy",
+    "sizes": {
+      "micro": "Mikro",
+      "small": "Mała",
+      "medium": "Średnia"
+    }
+  },
+  "dashboard": {
+    "title": "Panel ESG",
+    "welcome": "Witaj, {{name}}",
+    "complianceScore": "Wskaźnik zgodności",
+    "activeAlerts": "Aktywne alerty",
+    "pendingActions": "Oczekujące działania",
+    "upcomingDeadlines": "Nadchodzące terminy",
+    "quickStats": "Szybkie statystyki",
+    "recentActivity": "Ostatnia aktywność",
+    "complianceTrend": "Trend zgodności",
+    "esgPerformance": "Wydajność ESG",
+    "environmental": "Środowiskowe",
+    "social": "Społeczne",
+    "governance": "Zarządzanie"
+  },
+  "compliance": {
+    "title": "Zgodność regulacyjna",
+    "requirements": "Wymagania",
+    "assessments": "Oceny",
+    "status": "Status",
+    "deadline": "Termin",
+    "category": "Kategoria",
+    "regulation": "Regulacja",
+    "description": "Opis",
+    "evidence": "Dowody",
+    "actions": "Działania",
+    "history": "Historia",
+    "statusTypes": {
+      "compliant": "Zgodny",
+      "nonCompliant": "Niezgodny",
+      "partial": "Częściowy",
+      "pending": "Oczekujący",
+      "notApplicable": "Nie dotyczy"
+    },
+    "regulationTypes": {
+      "eu": "Unia Europejska",
+      "polish": "Polskie",
+      "industry": "Branżowe"
+    },
+    "createAssessment": "Utwórz ocenę",
+    "uploadEvidence": "Prześlij dowody",
+    "scheduleReview": "Zaplanuj przegląd",
+    "generateReport": "Generuj raport"
+  },
+  "metrics": {
+    "title": "Metryki ESG",
+    "environmental": {
+      "title": "Metryki środowiskowe",
+      "energyConsumption": "Zużycie energii",
+      "renewableEnergy": "Energia odnawialna",
+      "waterConsumption": "Zużycie wody",
+      "wasteGenerated": "Wytworzone odpady",
+      "wasteRecycled": "Odpady poddane recyklingowi",
+      "co2Emissions": "Emisje CO₂",
+      "units": {
+        "kwh": "kWh",
+        "m3": "m³",
+        "kg": "kg",
+        "tons": "tony"
+      }
+    },
+    "social": {
+      "title": "Metryki społeczne",
+      "employeeTurnover": "Rotacja pracowników",
+      "trainingHours": "Godziny szkoleń",
+      "workplaceAccidents": "Wypadki w pracy",
+      "genderDiversity": "Różnorodność płci",
+      "employeeSatisfaction": "Satysfakcja pracowników"
+    },
+    "governance": {
+      "title": "Metryki zarządzania",
+      "boardMeetings": "Posiedzenia zarządu",
+      "ethicsViolations": "Naruszenia etyki",
+      "dataBreaches": "Naruszenia danych",
+      "auditFindings": "Ustalenia audytu",
+      "policyUpdates": "Aktualizacje polityk"
+    },
+    "period": "Okres",
+    "comparison": "Porównanie",
+    "trend": "Trend",
+    "target": "Cel",
+    "actual": "Rzeczywiste"
+  },
+  "reports": {
+    "title": "Raporty",
+    "generate": "Generuj raport",
+    "schedule": "Zaplanuj raport",
+    "templates": "Szablony",
+    "history": "Historia raportów",
+    "types": {
+      "compliance": "Raport zgodności",
+      "esgSummary": "Podsumowanie ESG",
+      "regulatory": "Raport regulacyjny",
+      "custom": "Raport niestandardowy"
+    },
+    "formats": {
+      "pdf": "PDF",
+      "excel": "Excel",
+      "csv": "CSV",
+      "xml": "XML"
+    },
+    "frequency": {
+      "oneTime": "Jednorazowy",
+      "daily": "Dzienny",
+      "weekly": "Tygodniowy",
+      "monthly": "Miesięczny",
+      "quarterly": "Kwartalny",
+      "annual": "Roczny"
+    },
+    "recipients": "Odbiorcy",
+    "language": "Język",
+    "includeCharts": "Dołącz wykresy",
+    "includeRecommendations": "Dołącz rekomendacje",
+    "generateNow": "Generuj teraz",
+    "downloadReport": "Pobierz raport",
+    "shareReport": "Udostępnij raport",
+    "deleteReport": "Usuń raport"
+  },
+  "integrations": {
+    "title": "Integracje",
+    "utilityProviders": "Dostawcy mediów",
+    "connectNew": "Połącz nowego",
+    "manage": "Zarządzaj",
+    "status": "Status połączenia",
+    "lastSync": "Ostatnia synchronizacja",
+    "syncNow": "Synchronizuj teraz",
+    "providers": {
+      "electricity": "Dostawca energii elektrycznej",
+      "gas": "Dostawca gazu",
+      "water": "Dostawca wody",
+      "waste": "Firma odpadowa",
+      "heating": "Dostawca ciepła"
+    },
+    "connectionStatus": {
+      "connected": "Połączony",
+      "pending": "Oczekujący",
+      "failed": "Niepowodzenie",
+      "disconnected": "Rozłączony"
+    },
+    "accountNumber": "Numer konta",
+    "meterNumber": "Numer licznika",
+    "apiKey": "Klucz API",
+    "testConnection": "Testuj połączenie",
+    "disconnect": "Rozłącz",
+    "autoSync": "Automatyczna synchronizacja",
+    "syncFrequency": "Częstotliwość synchronizacji"
+  },
+  "recommendations": {
+    "title": "Rekomendacje AI",
+    "newRecommendations": "Nowe rekomendacje",
+    "implemented": "Wdrożone",
+    "inProgress": "W trakcie",
+    "rejected": "Odrzucone",
+    "types": {
+      "improvement": "Poprawa",
+      "compliance": "Zgodność",
+      "costSaving": "Oszczędność kosztów",
+      "riskMitigation": "Ograniczenie ryzyka"
+    },
+    "priority": {
+      "critical": "Krytyczny",
+      "high": "Wysoki",
+      "medium": "Średni",
+      "low": "Niski"
+    },
+    "estimatedCost": "Szacowany koszt",
+    "estimatedSavings": "Szacowane oszczędności",
+    "implementationTime": "Czas wdrożenia",
+    "potentialImprovement": "Potencjalna poprawa",
+    "viewDetails": "Zobacz szczegóły",
+    "accept": "Zaakceptuj",
+    "reject": "Odrzuć",
+    "markAsImplemented": "Oznacz jako wdrożone",
+    "provideFeedback": "Przekaż opinię"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "general": "Ogólne",
+    "notifications": "Powiadomienia",
+    "security": "Bezpieczeństwo",
+    "billing": "Rozliczenia",
+    "users": "Użytkownicy",
+    "api": "API",
+    "language": "Język",
+    "timezone": "Strefa czasowa",
+    "dateFormat": "Format daty",
+    "currency": "Waluta",
+    "emailNotifications": "Powiadomienia email",
+    "smsNotifications": "Powiadomienia SMS",
+    "twoFactorAuth": "Uwierzytelnianie dwuskładnikowe",
+    "changePassword": "Zmień hasło",
+    "subscription": {
+      "title": "Subskrypcja",
+      "currentPlan": "Obecny plan",
+      "basic": "Podstawowy",
+      "professional": "Profesjonalny",
+      "enterprise": "Enterprise",
+      "upgrade": "Ulepsz plan",
+      "downgrade": "Zmień na niższy plan",
+      "cancelSubscription": "Anuluj subskrypcję",
+      "nextBillingDate": "Następna data rozliczenia",
+      "paymentMethod": "Metoda płatności"
+    }
+  },
+  "notifications": {
+    "title": "Powiadomienia",
+    "markAsRead": "Oznacz jako przeczytane",
+    "markAllAsRead": "Oznacz wszystkie jako przeczytane",
+    "clearAll": "Wyczyść wszystkie",
+    "noNotifications": "Brak powiadomień",
+    "types": {
+      "alert": "Alert",
+      "warning": "Ostrzeżenie",
+      "info": "Informacja",
+      "success": "Sukces"
+    }
+  },
+  "errors": {
+    "generalError": "Wystąpił błąd. Spróbuj ponownie później.",
+    "networkError": "Błąd połączenia z siecią",
+    "unauthorized": "Brak autoryzacji",
+    "forbidden": "Brak dostępu",
+    "notFound": "Nie znaleziono",
+    "serverError": "Błąd serwera",
+    "validationError": "Błąd walidacji",
+    "sessionExpired": "Sesja wygasła. Zaloguj się ponownie."
+  },
+  "footer": {
+    "copyright": "© 2024 ESG Compliance Platform. Wszelkie prawa zastrzeżone.",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Warunki usługi",
+    "contact": "Kontakt",
+    "support": "Wsparcie"
+  }
+}

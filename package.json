@@ -1,35 +1,51 @@
 {
-  "name": "basic-js",
+  "name": "esg-compliance-platform",
   "version": "1.0.0",
-  "description": "Tasks for RSS",
-  "main": "index.js",
-  "engines": {
-    "node": "16",
-    "npm": "8"
-  },
-  "directories": {
-    "test": "test"
-  },
+  "description": "ESG Compliance Platform for Polish SMEs",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
   "scripts": {
-    "test": "mocha"
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:frontend": "cd frontend && npm run lint",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "clean": "rm -rf node_modules backend/node_modules frontend/node_modules backend/dist frontend/dist",
+    "db:setup": "cd backend && npm run db:migrate && npm run db:seed",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlreadyBored/basic-js.git"
+    "url": "git+https://github.com/your-org/esg-compliance-platform.git"
   },
   "keywords": [
-    "RSS",
-    "tasks"
+    "ESG",
+    "compliance",
+    "Poland",
+    "SME",
+    "SaaS",
+    "sustainability"
   ],
-  "author": "AlreadyBored",
-  "license": "MIT",
+  "author": "ESG Compliance Team",
+  "license": "PROPRIETARY",
   "bugs": {
-    "url": "https://github.com/AlreadyBored/basic-js/issues"
+    "url": "https://github.com/your-org/esg-compliance-platform/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/basic-js#readme",
-  "devDependencies": {
-    "chai": "4.3.6",
-    "mocha": "10.0.0",
-    "sinon": "14.0.0"
-  }
+  "homepage": "https://esg-compliance.pl"
 }
