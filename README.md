@@ -1,9 +1,11 @@
 # ESG Compliance Platform dla Polskich MŚP
 
-[![License](https://img.shields.io/github/license/e1washere/esg‑compliance?style=for-the-badge)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/e1washere/esg‑compliance/ci.yml?style=for-the-badge&logo=github-actions)](.github/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/e1washere/esg‑compliance?style=for-the-badge)](https://github.com/e1washere/esg‑compliance/releases)
-[![Coverage](https://img.shields.io/codecov/c/github/e1washere/esg‑compliance?style=for-the-badge)](https://codecov.io/gh/e1washere/esg‑compliance)
+[![GitHub license](https://img.shields.io/github/license/e1washere/esg-compliance?style=flat-square)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/e1washere/esg-compliance?style=flat-square)](https://github.com/e1washere/esg-compliance/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/e1washere/esg-compliance?style=flat-square)](https://github.com/e1washere/esg-compliance/issues)
+[![GitHub forks](https://img.shields.io/github/forks/e1washere/esg-compliance?style=flat-square)](https://github.com/e1washere/esg-compliance/network)
+[![GitHub stars](https://img.shields.io/github/stars/e1washere/esg-compliance?style=flat-square)](https://github.com/e1washere/esg-compliance/stargazers)
+[![GitHub contributors](https://img.shields.io/github/contributors/e1washere/esg-compliance?style=flat-square)](https://github.com/e1washere/esg-compliance/graphs/contributors)
 
 ## Polish SME ESG Compliance SaaS Platform
 
